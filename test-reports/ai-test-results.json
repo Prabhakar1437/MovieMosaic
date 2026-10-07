@@ -1,14 +1,14 @@
 {
   "numFailedTestSuites": 0,
   "numFailedTests": 0,
-  "numPassedTestSuites": 1,
-  "numPassedTests": 14,
+  "numPassedTestSuites": 2,
+  "numPassedTests": 22,
   "numPendingTestSuites": 0,
   "numPendingTests": 0,
   "numRuntimeErrorTestSuites": 0,
   "numTodoTests": 0,
-  "numTotalTestSuites": 1,
-  "numTotalTests": 14,
+  "numTotalTestSuites": 2,
+  "numTotalTests": 22,
   "openHandles": [],
   "snapshot": {
     "added": 0,
@@ -26,7 +26,7 @@
     "unmatched": 0,
     "updated": 0
   },
-  "startTime": 1791350792536,
+  "startTime": 1791354457632,
   "success": true,
   "testResults": [
     {
@@ -35,7 +35,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 149,
+          "duration": 106,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should render the title, rating, language and year for a full movie object",
@@ -50,7 +50,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 29,
+          "duration": 42,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should build the poster URL from poster_path and use title as alt text",
@@ -65,7 +65,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 19,
+          "duration": 26,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should fall back to /no-movie.png when poster_path is null",
@@ -80,7 +80,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 19,
+          "duration": 27,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should fall back to /no-movie.png when poster_path is undefined",
@@ -95,7 +95,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 12,
+          "duration": 5,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should show N/A for rating when vote_average is undefined",
@@ -110,7 +110,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 5,
+          "duration": 2,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should show N/A for rating when vote_average is null",
@@ -125,7 +125,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 5,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should show N/A for rating when vote_average is 0",
@@ -140,7 +140,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 9,
+          "duration": 5,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should format the rating to one decimal place",
@@ -155,7 +155,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 6,
+          "duration": 3,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should show N/A for the year when release_date is undefined",
@@ -170,7 +170,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 4,
+          "duration": 2,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should show N/A for the year when release_date is an empty string",
@@ -200,7 +200,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 22,
+          "duration": 14,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should always render the star icon with alt text",
@@ -215,7 +215,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 5,
+          "duration": 4,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should render two bullet separators between rating, language and year",
@@ -230,7 +230,7 @@
           "ancestorTitles": [
             "MovieCard"
           ],
-          "duration": 51,
+          "duration": 39,
           "failureDetails": [],
           "failureMessages": [],
           "fullName": "MovieCard should throw when the movie prop is not provided",
@@ -242,10 +242,140 @@
           "title": "should throw when the movie prop is not provided"
         }
       ],
-      "endTime": 1791350801197,
+      "endTime": 1791354464381,
       "message": "",
       "name": "<rootDir>\\src\\components\\MovieCard.test.jsx",
-      "startTime": 1791350795280,
+      "startTime": 1791354459515,
+      "status": "passed",
+      "summary": ""
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Search"
+          ],
+          "duration": 73,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search should render the search input with its placeholder",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should render the search input with its placeholder"
+        },
+        {
+          "ancestorTitles": [
+            "Search"
+          ],
+          "duration": 28,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search should render the search icon image with alt text",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 2,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should render the search icon image with alt text"
+        },
+        {
+          "ancestorTitles": [
+            "Search"
+          ],
+          "duration": 4,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search should display the searchTerm prop as the input value",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should display the searchTerm prop as the input value"
+        },
+        {
+          "ancestorTitles": [
+            "Search"
+          ],
+          "duration": 124,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search should call setSearchTerm with the typed value when the user types",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should call setSearchTerm with the typed value when the user types"
+        },
+        {
+          "ancestorTitles": [
+            "Search"
+          ],
+          "duration": 10,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search should call setSearchTerm with the new value on change event",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should call setSearchTerm with the new value on change event"
+        },
+        {
+          "ancestorTitles": [
+            "Search"
+          ],
+          "duration": 37,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search should call setSearchTerm with an empty string when the input is cleared",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should call setSearchTerm with an empty string when the input is cleared"
+        },
+        {
+          "ancestorTitles": [
+            "Search"
+          ],
+          "duration": 92,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search should remain controlled and not change displayed value unless the prop changes",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 3,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should remain controlled and not change displayed value unless the prop changes"
+        },
+        {
+          "ancestorTitles": [
+            "Search"
+          ],
+          "duration": 8,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "Search should render an empty input when searchTerm is an empty string",
+          "invocations": 1,
+          "location": null,
+          "numPassingAsserts": 1,
+          "retryReasons": [],
+          "status": "passed",
+          "title": "should render an empty input when searchTerm is an empty string"
+        }
+      ],
+      "endTime": 1791354464974,
+      "message": "",
+      "name": "<rootDir>\\src\\components\\Search.test.jsx",
+      "startTime": 1791354459512,
       "status": "passed",
       "summary": ""
     }
